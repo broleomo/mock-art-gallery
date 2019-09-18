@@ -1,0 +1,41 @@
+
+.App {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: pink;
+  border: 3px solid powderblue;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__heading {
+  font-size: 60px;
+  text-align: center;
+}
+
+.form__label {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.form__input {
+  width: 200px;
+  height: 50px;
+  box-shadow: none;
+}
+
+.form__submit-button {
+  min-width: 250px;
+  font-size: 40px;
+  background-color: mediumturquoise;
+  margin: 3rem 0;
+}
